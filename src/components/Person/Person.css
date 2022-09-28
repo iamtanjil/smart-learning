@@ -48,3 +48,19 @@
     border-radius: 50%;
     padding: 10px;
 }
+.exercise-info{
+    background-color: #107896;
+    border-radius: 8px;
+    width: 220px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    padding: 0 10px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+.exercise-info h5{
+    margin: 0;
+}

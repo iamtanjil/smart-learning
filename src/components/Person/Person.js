@@ -35,6 +35,17 @@ const Person = () => {
                     <h5>50s</h5>
                 </div>
             </div>
+            <div>
+                <h4 className="brake-title">Exercise Details</h4>
+                <div className="exercise-info">
+                    <h5>Exercise Time:</h5>
+                    <h5>2hrs</h5>
+                </div>
+                <div className="exercise-info">
+                    <h5>Duration:</h5>
+                    <h5>2hrs</h5>
+                </div>
+            </div>
         </div>
     );
 };
