@@ -1,0 +1,15 @@
+.container{
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+}
+.skill-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    padding: 15px;
+}
+.skill-aside{
+    background-color: #6dcae4;
+    position: sticky;
+    top: 0;
+}

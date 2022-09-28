@@ -1,0 +1,44 @@
+[
+    {
+        "id": 1,
+        "name": "Academic Study",
+        "details": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla optio veritatis magnam dolorum atque, quam debitis aliquid praesentium voluptas pariatur amet, veniam quisquam. Quo aliquam quaerat eum, iusto hic maiores?",
+        "duration": 2,
+        "img": "https://www.ukstudycentre.co.uk/wp-content/uploads/2016/09/stack_of_books-e1478004220548.jpg"
+      },
+    {
+        "id": 2,
+        "name": "Learn CSS",
+        "details": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla optio veritatis magnam dolorum atque, quam debitis aliquid praesentium voluptas pariatur amet, veniam quisquam. Quo aliquam quaerat eum, iusto hic maiores?",
+        "duration": 2,
+        "img": "https://miro.medium.com/max/1400/0*0Jt6AoXxmN0n0qhN"
+      },
+    {
+        "id": 3,
+        "name": "Learn HTML",
+        "details": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla optio veritatis magnam dolorum atque, quam debitis aliquid praesentium voluptas pariatur amet, veniam quisquam. Quo aliquam quaerat eum, iusto hic maiores?",
+        "duration": 2,
+        "img": "https://pixelmechanics.com.sg/wp-content/uploads/2019/06/html5-logo-for-web-development.png"
+      },
+    {
+        "id": 4,
+        "name": "Learn React",
+        "details": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla optio veritatis magnam dolorum atque, quam debitis aliquid praesentium voluptas pariatur amet, veniam quisquam. Quo aliquam quaerat eum, iusto hic maiores?",
+        "duration": 2,
+        "img": "https://process.fs.teachablecdn.com/ADNupMnWyR7kCWRvm76Laz/resize=width:705/https://www.filepicker.io/api/file/fGWjtyQtG4JE7UXgaPAN"
+      },
+    {
+        "id": 5,
+        "name": "Learn Data Structure",
+        "details": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla optio veritatis magnam dolorum atque, quam debitis aliquid praesentium voluptas pariatur amet, veniam quisquam. Quo aliquam quaerat eum, iusto hic maiores?",
+        "duration": 2,
+        "img": "https://i.morioh.com/2022/09/21/3fdf2744.webp"
+      },
+    {
+        "id": 6,
+        "name": "Learn Java",
+        "details": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla optio veritatis magnam dolorum atque, quam debitis aliquid praesentium voluptas pariatur amet, veniam quisquam. Quo aliquam quaerat eum, iusto hic maiores?",
+        "duration": 2,
+        "img": "https://stackify.com/wp-content/uploads/2018/08/Learn_Java_Tutorials.png"
+      }
+]
