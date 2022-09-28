@@ -1,0 +1,20 @@
+.header{
+    background-color: #107896;
+}
+.header h3{
+    color: white;
+    margin-left: 10px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-size: 25px;
+}
+.header-container{
+    display: flex;
+    align-items: center;
+    margin-left: 100px;
+}
+.header img{
+    height: 50px;
+    width: 50px;
+    margin-left: 10px;
+}
