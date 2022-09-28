@@ -1,0 +1,28 @@
+.person-container{
+    display: flex;
+    align-items: center;
+    margin-left: 30px;
+}
+.person-container img{
+    height: 50px;
+    width: 50px;
+    margin-right: 10px;
+}
+.person-container h4{
+    margin-bottom: 0;
+    margin-top: 15px;
+}
+.person-container p{
+    margin-top: 5px;
+}
+.person-info{
+    background-color: #107896;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px;
+    height: 70px;
+    width: 220px;
+    border-radius: 5px;
+    margin-left: 20px;
+}

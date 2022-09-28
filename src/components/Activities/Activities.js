@@ -1,5 +1,6 @@
 import React,{useEffect, useState} from 'react';
 import ActivitiesList from '../activitiesList/ActivitiesList';
+import Person from '../Person/Person';
 import './Activities.css'
 
 const Activities = () => {
@@ -21,7 +22,7 @@ const Activities = () => {
                 }
             </div>
             <div className="skill-aside">
-                <h1>this is skill aside</h1> 
+                <Person></Person> 
             </div>
         </div>
     );
