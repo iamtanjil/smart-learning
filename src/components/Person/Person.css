@@ -61,6 +61,17 @@
     margin-left: 20px;
     margin-bottom: 10px;
 }
-.exercise-info h5{
-    margin: 0;
+.btn-activity{
+    background-color: #107896;
+    padding: 10px;
+    font-size: 20px;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-left: 20px;
+    width: 240px;
+}
+.btn-activity:hover{
+    background-color: #074758;
 }

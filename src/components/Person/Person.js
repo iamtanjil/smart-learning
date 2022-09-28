@@ -46,6 +46,7 @@ const Person = () => {
                     <h5>2hrs</h5>
                 </div>
             </div>
+            <button className='btn-activity'>Activity Completed</button>
         </div>
     );
 };
