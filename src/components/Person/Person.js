@@ -12,8 +12,13 @@ const showToastMessage = () => {
 const Person = (props) => {
     const time = props.time;
     const [breakTime, setBreakTime] = useState(0);
+    const handelBreakTime = (times) =>{
+        setBreakTime(times);
+        localStorage.setItem('time', times);
+    }
     useEffect(()=>{
-        
+        const addedTime = localStorage.getItem('time');
+        setBreakTime(addedTime);
     }, []);
     return (
         <div>
@@ -41,11 +46,11 @@ const Person = (props) => {
             <div>
                 <h4 className='brake-title'>Add a Brake</h4>
                 <div className="brake-time">
-                    <h5 onClick={() => setBreakTime(10)}>10s</h5>
-                    <h5 onClick={() => setBreakTime(20)}>20s</h5>
-                    <h5 onClick={() => setBreakTime(30)}>30s</h5>
-                    <h5 onClick={() => setBreakTime(40)}>40s</h5>
-                    <h5 onClick={() => setBreakTime(50)}>50s</h5>
+                    <h5 onClick={() => handelBreakTime(10)}>10s</h5>
+                    <h5 onClick={() => handelBreakTime(20)}>20s</h5>
+                    <h5 onClick={() => handelBreakTime(30)}>30s</h5>
+                    <h5 onClick={() => handelBreakTime(40)}>40s</h5>
+                    <h5 onClick={() => handelBreakTime(50)}>50s</h5>
                 </div>
             </div>
             <div>
