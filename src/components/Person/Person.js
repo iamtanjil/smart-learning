@@ -1,7 +1,20 @@
-import React from 'react';
 import img from '../../images/person.png';
 import './Person.css'
-const Person = () => {
+import React, { useEffect, useState } from 'react';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+
+const showToastMessage = () => {
+    toast.success('WoW You Complete All Task!', {
+        position: toast.POSITION.TOP_RIGHT
+    });
+};
+const Person = (props) => {
+    const time = props.time;
+    const [breakTime, setBreakTime] = useState(0);
+    useEffect(()=>{
+        
+    }, []);
     return (
         <div>
             <div className="person-container">
@@ -28,25 +41,26 @@ const Person = () => {
             <div>
                 <h4 className='brake-title'>Add a Brake</h4>
                 <div className="brake-time">
-                    <h5>10s</h5>
-                    <h5>20s</h5>
-                    <h5>30s</h5>
-                    <h5>40s</h5>
-                    <h5>50s</h5>
+                    <h5 onClick={() => setBreakTime(10)}>10s</h5>
+                    <h5 onClick={() => setBreakTime(20)}>20s</h5>
+                    <h5 onClick={() => setBreakTime(30)}>30s</h5>
+                    <h5 onClick={() => setBreakTime(40)}>40s</h5>
+                    <h5 onClick={() => setBreakTime(50)}>50s</h5>
                 </div>
             </div>
             <div>
                 <h4 className="brake-title">Exercise Details</h4>
                 <div className="exercise-info">
                     <h5>Exercise Time:</h5>
-                    <h5>2hrs</h5>
+                    <h5>{time}hrs</h5>
                 </div>
                 <div className="exercise-info">
-                    <h5>Duration:</h5>
-                    <h5>2hrs</h5>
+                    <h5>Break Time:</h5>
+                    <h5>{breakTime}s</h5>
                 </div>
             </div>
-            <button className='btn-activity'>Activity Completed</button>
+            <button onClick={showToastMessage} className='btn-activity'>Activity Completed</button>
+            <ToastContainer />
         </div>
     );
 };

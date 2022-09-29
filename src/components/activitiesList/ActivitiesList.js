@@ -3,6 +3,7 @@ import './ActivitiesList.css'
 
 const ActivitiesList = (props) => {
     const {name, details, duration, img} = props.activity;
+    
     return (
         <div className='skills-container'>
             <img src={img} alt="" />
@@ -11,7 +12,7 @@ const ActivitiesList = (props) => {
                 <p>{details.slice(0, 100)}</p>
                 <h5>Duration: {duration}Hrs.</h5>
             </div>
-            <button className='btn-done'>Done This Job</button>
+            <button onClick={()=>props.time(duration)} className='btn-done'>Done This Job</button>
         </div>
     );
 };

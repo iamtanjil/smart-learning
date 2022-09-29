@@ -48,6 +48,10 @@
     border-radius: 50%;
     padding: 10px;
 }
+.brake-time h5:hover{
+    background-color: #074758;
+    cursor: pointer;
+}
 .exercise-info{
     background-color: #107896;
     border-radius: 8px;

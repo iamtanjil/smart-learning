@@ -5,6 +5,7 @@ import './Activities.css'
 
 const Activities = () => {
     const [activities, setActivities] = useState([]);
+    const [time, setTime]= useState(0);
 
     useEffect(()=>{
         fetch('activities.json')
@@ -12,17 +13,21 @@ const Activities = () => {
         .then(data => setActivities(data))
     }, []);
 
+    const getDuration = times =>{
+        setTime((times + time));
+    };
     return (
         <div className='container'>
             <div className="skill-container">
                 {
                     activities.map(activity=> <ActivitiesList
                     activity={activity}
-                    key={activity.id}></ActivitiesList>)
+                    key={activity.id}
+                    time={getDuration}></ActivitiesList>)
                 }
             </div>
             <div className="skill-aside">
-                <Person></Person> 
+                <Person time={time}></Person> 
             </div>
         </div>
     );
